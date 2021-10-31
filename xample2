@@ -1,0 +1,15 @@
+ 
+currentTemp = input("\n Enter CurrentTemp: ")
+
+# Extremes in temperature (in Celsius)
+tempHigh = input ("\n Enter TempHigh: ")
+tempLow =  input ("\n Enter templow: ")
+
+
+# Compare current temperature against extremes
+if currentTemp > tempLow or currentTemp < tempHigh:
+    print('Temperature (' + str(currentTemp) +
+          ') is above record low or ' +
+          'below record high.')
+else:
+    print("There's a new record-breaking temperature!")
