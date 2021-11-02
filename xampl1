@@ -1,12 +1,17 @@
-a= input("Enter Words: ")
-i = 0
+#Input Value
+var =int (input("\n\n Enter Value? "))
+#output Value
+if var < 200:
+   print ("Expression value is less than 200")
+   if var == 150:
+      print ("Which is 150")
+   elif var == 100:
+      print ("Which is 100")
+   elif var == 50:
+      print ("Which is 50")
+   elif var < 50:
+    print ("Expression value is less than 200")
+else:
+   print ("Could not find true expression")
 
- 
-while i < len(a
-  #it will remove the letter n and a
-    if a[i] == 'n' or a[i] == 'a':
-        i += 1
-        continue
-         
-    print('Current Letter :', a[i])
-    i += 1
+print ("Good bye!")
